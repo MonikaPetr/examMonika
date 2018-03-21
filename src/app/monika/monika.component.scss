@@ -1,0 +1,42 @@
+mat-card {
+  width: 400px;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  .blue {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: -20px;
+    top: -20px;
+    border-radius: 10px;
+    line-height: 40px;
+    background: rgba(0,0,255,.6);
+  }
+  .red {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    right: -20px;
+    top: -20px;
+    border-radius: 10px;
+    line-height: 40px;
+    background: rgba(255,0,0,.6);
+  }
+  h1, h3 {
+    text-align: center;
+  }
+  .spinPic {
+  min-height: 400px;
+  }
+  .buttonsDown {
+    text-align: center;
+  }
+  .spin {
+      min-height: 230px;
+      mat-spinner {
+        margin: 0 auto;
+        margin-top: 100px;
+      }
+  }
+}
